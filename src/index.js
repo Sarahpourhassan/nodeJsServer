@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 8080;
 const log4js = require('log4js');
 log4js.configure({
     appenders: {app: {type: "file", filename: "logs.log"}},
